@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "EffectView.h"
+
 @interface ViewController : UIViewController
 
 

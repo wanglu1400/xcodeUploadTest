@@ -15,6 +15,8 @@
 		EC57F1271DC9C2D5005C0425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC57F1251DC9C2D5005C0425 /* LaunchScreen.storyboard */; };
 		EC57F1321DC9C2D6005C0425 /* LocationNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC57F1311DC9C2D6005C0425 /* LocationNotificationTests.m */; };
 		EC57F13D1DC9C2D7005C0425 /* LocationNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC57F13C1DC9C2D7005C0425 /* LocationNotificationUITests.m */; };
+		EC9C9D941DD5B43D00762F5B /* EffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C9D931DD5B43D00762F5B /* EffectView.m */; };
+		EC9C9D9A1DD5BAF300762F5B /* huaji2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC9C9D991DD5BAF300762F5B /* huaji2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		EC57F1381DC9C2D7005C0425 /* LocationNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC57F13C1DC9C2D7005C0425 /* LocationNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationNotificationUITests.m; sourceTree = "<group>"; };
 		EC57F13E1DC9C2D7005C0425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9C9D921DD5B43D00762F5B /* EffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectView.h; sourceTree = "<group>"; };
+		EC9C9D931DD5B43D00762F5B /* EffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectView.m; sourceTree = "<group>"; };
+		EC9C9D991DD5BAF300762F5B /* huaji2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huaji2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		EC57F1161DC9C2D4005C0425 /* LocationNotification */ = {
 			isa = PBXGroup;
 			children = (
+				EC9C9D991DD5BAF300762F5B /* huaji2.jpg */,
 				EC57F11A1DC9C2D4005C0425 /* AppDelegate.h */,
 				EC57F11B1DC9C2D4005C0425 /* AppDelegate.m */,
 				EC57F11D1DC9C2D4005C0425 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				EC57F1251DC9C2D5005C0425 /* LaunchScreen.storyboard */,
 				EC57F1281DC9C2D5005C0425 /* Info.plist */,
 				EC57F1171DC9C2D4005C0425 /* Supporting Files */,
+				EC9C9D921DD5B43D00762F5B /* EffectView.h */,
+				EC9C9D931DD5B43D00762F5B /* EffectView.m */,
 			);
 			path = LocationNotification;
 			sourceTree = "<group>";
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					EC57F1131DC9C2D4005C0425 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U33EY89V62;
 						ProvisioningStyle = Automatic;
 					};
 					EC57F12C1DC9C2D6005C0425 = {
@@ -247,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC57F1271DC9C2D5005C0425 /* LaunchScreen.storyboard in Resources */,
+				EC9C9D9A1DD5BAF300762F5B /* huaji2.jpg in Resources */,
 				EC57F1241DC9C2D5005C0425 /* Assets.xcassets in Resources */,
 				EC57F1221DC9C2D4005C0425 /* Main.storyboard in Resources */,
 			);
@@ -276,6 +286,7 @@
 				EC57F11F1DC9C2D4005C0425 /* ViewController.m in Sources */,
 				EC57F11C1DC9C2D4005C0425 /* AppDelegate.m in Sources */,
 				EC57F1191DC9C2D4005C0425 /* main.m in Sources */,
+				EC9C9D941DD5B43D00762F5B /* EffectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,10 +433,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = U33EY89V62;
 				INFOPLIST_FILE = LocationNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.LocationNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -433,10 +448,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = U33EY89V62;
 				INFOPLIST_FILE = LocationNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.LocationNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -505,6 +524,7 @@
 				EC57F1431DC9C2D7005C0425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC57F1441DC9C2D7005C0425 /* Build configuration list for PBXNativeTarget "LocationNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +533,7 @@
 				EC57F1461DC9C2D7005C0425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC57F1471DC9C2D7005C0425 /* Build configuration list for PBXNativeTarget "LocationNotificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +542,7 @@
 				EC57F1491DC9C2D7005C0425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
