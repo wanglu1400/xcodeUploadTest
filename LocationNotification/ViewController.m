@@ -24,6 +24,7 @@
     });
     NSLog(@"1234");
     
+    NSLog(@"test123");
     
     UIImageView* imgView=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
     [imgView setImage:[UIImage imageNamed:@"huaji2.jpg"]];
